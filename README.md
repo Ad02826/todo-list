@@ -1,12 +1,12 @@
 # Todo List - GitHub协作开发入门项目
 
-[![GitHub license](https://img.shields.io/github/license/你的用户名/todo-list)](https://github.com/你的用户名/todo-list)
-[![GitHub stars](https://img.shields.io/github/stars/你的用户名/todo-list)](https://github.com/你的用户名/todo-list/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Ad02826/todo-list)](https://github.com/你的用户名/todo-list)
+[![GitHub stars](https://img.shields.io/github/stars/Ad02826/todo-list)](https://github.com/你的用户名/todo-list/stargazers)
 
 一个用于学习GitHub核心功能的入门级项目，通过开发简单的待办事项列表，掌握仓库管理、分支操作、PR协作等技能。
 
 ## 🚀 在线演示
-[https://你的用户名.github.io/todo-list/](https://yourusername.github.io/todo-list/)
+[https://Ad02826.github.io/todo-list/](https://yourusername.github.io/todo-list/)
 
 ## 📋 功能特性
 - 添加/删除待办事项
