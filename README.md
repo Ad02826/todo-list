@@ -40,3 +40,58 @@ open index.html
 git init                 # 初始化本地 Git 仓库
 git clone <url>         # 克隆远程仓库到本地
 ```
+### 📄 查看状态与日志
+```bash
+git status              # 查看当前工作区状态
+git log                 # 查看提交历史
+git log --oneline       # 简洁格式查看提交历史
+git diff                # 查看文件变更差异
+```
+### 📝 文件操作
+```bash
+git add <file>          # 添加指定文件到暂存区
+git add .               # 添加所有改动文件到暂存区
+git commit -m "msg"     # 提交暂存区到本地仓库，附带提交信息
+git rm <file>           # 删除文件并提交删除操作
+git mv <old> <new>      # 重命名或移动文件
+```
+### 🔄 分支管理
+```bash
+git branch              # 查看本地分支列表
+git branch <name>       # 创建新分支
+git checkout <name>     # 切换到指定分支
+git checkout -b <name>  # 创建并切换到新分支
+git merge <name>        # 将指定分支合并到当前分支
+git branch -d <name>    # 删除本地分支
+```
+### ⬆️ 远程仓库
+```bash
+git remote -v                   # 查看远程仓库地址
+git remote add origin <url>    # 添加远程仓库地址（origin 为默认名）
+git push origin <branch>       # 推送分支到远程仓库
+git pull                       # 拉取远程分支并合并
+git fetch                      # 获取远程仓库更新，不自动合并
+```
+### 🧹 撤销与回退
+```bash
+git reset <file>               # 撤销暂存区中文件
+git checkout -- <file>         # 撤销工作区文件的修改
+git reset --soft HEAD^         # 回退上一次提交，保留修改
+git reset --hard HEAD^         # 回退上一次提交并丢弃修改
+git revert <commit>            # 反做指定提交，生成一个新的提交记录
+```
+### 🧪 标签操作
+```bash
+git tag                        # 查看所有标签
+git tag <tagname>              # 创建标签
+git tag -d <tagname>           # 删除标签
+git push origin <tagname>      # 推送指定标签到远程
+git push origin --tags         # 推送所有标签到远程
+```
+### ⚙️ Git 配置与帮助
+```bash
+git config --global user.name "你的名字"        # 设置全局用户名
+git config --global user.email "你的邮箱"        # 设置全局邮箱地址
+git config --list                               # 查看当前所有 Git 配置
+git help <command>                              # 查看某个命令的帮助说明
+```
