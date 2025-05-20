@@ -35,6 +35,10 @@ cd todo-list
 # 启动本地服务（需要安装Live Server插件）
 open index.html
 ```
+## 🛠️ git的四种工作区域
+
+![image](https://github.com/user-attachments/assets/bf2b0b95-87bb-4825-ae71-33f62bbb15b4)
+
 ## 🛠️ 基础的git命令
 
 ### 📁 仓库管理
